@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- Menu item for Book Categories under the Library menu -->
+  <menuitem id="menu_library_book_category_root"
+            name="Book Category"
+            parent="library.menu_library_root"
+            sequence="20"
+            action="action_library_book_category"/>
+</odoo>
